@@ -1,0 +1,247 @@
+{
+  "projectType": "saas",
+  "projectName": "OpenOps",
+  "projectDescription": "A batteries-included, No-Code FinOps automation platform with AI-powered cloud cost optimization.",
+  "theme": "aspen",
+  "primaryColor": "#0066FF",
+  "lightColor": "#3385FF",
+  "darkColor": "#0052CC",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "core-concepts/overview",
+              "core-concepts/workflows",
+              "core-concepts/blocks",
+              "core-concepts/triggers",
+              "core-concepts/actions"
+            ]
+          },
+          {
+            "group": "Workflow Management",
+            "pages": [
+              "workflow-management/workflow-editor",
+              "workflow-management/workflow-templates",
+              "workflow-management/versioning",
+              "workflow-management/testing-debugging"
+            ]
+          },
+          {
+            "group": "OpenOps Tables",
+            "pages": [
+              "tables/overview",
+              "tables/getting-started",
+              "tables/data-management",
+              "tables/workflows-integration"
+            ]
+          },
+          {
+            "group": "OpenOps Analytics",
+            "pages": [
+              "analytics/overview",
+              "analytics/creating-dashboards",
+              "analytics/data-visualization",
+              "analytics/embedded-analytics"
+            ]
+          },
+          {
+            "group": "AI Features",
+            "pages": [
+              "ai/overview",
+              "ai/ai-providers",
+              "ai/mcp-integration",
+              "ai/ai-blocks"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Integrations",
+        "groups": [
+          {
+            "group": "Cloud Providers",
+            "pages": [
+              "integrations/cloud/overview",
+              "integrations/cloud/aws",
+              "integrations/cloud/azure",
+              "integrations/cloud/gcp"
+            ]
+          },
+          {
+            "group": "FinOps Tools",
+            "pages": [
+              "integrations/finops/overview",
+              "integrations/finops/cloudability",
+              "integrations/finops/cloudhealth",
+              "integrations/finops/cloudzero",
+              "integrations/finops/finout",
+              "integrations/finops/anodot",
+              "integrations/finops/archera"
+            ]
+          },
+          {
+            "group": "Communication",
+            "pages": [
+              "integrations/communication/overview",
+              "integrations/communication/slack",
+              "integrations/communication/email",
+              "integrations/communication/webhooks"
+            ]
+          },
+          {
+            "group": "Project Management",
+            "pages": [
+              "integrations/project-management/overview",
+              "integrations/project-management/linear",
+              "integrations/project-management/jira",
+              "integrations/project-management/monday"
+            ]
+          },
+          {
+            "group": "Data Platforms",
+            "pages": [
+              "integrations/data/overview",
+              "integrations/data/snowflake",
+              "integrations/data/databricks",
+              "integrations/data/aws-athena"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Deployment",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "deployment/overview",
+              "deployment/cloud-vs-self-hosted"
+            ]
+          },
+          {
+            "group": "Self-Hosted",
+            "pages": [
+              "deployment/self-hosted/docker-compose",
+              "deployment/self-hosted/kubernetes",
+              "deployment/self-hosted/configuration",
+              "deployment/self-hosted/security"
+            ]
+          },
+          {
+            "group": "Operations",
+            "pages": [
+              "deployment/operations/monitoring",
+              "deployment/operations/scaling",
+              "deployment/operations/backup-restore",
+              "deployment/operations/upgrades"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "api-reference/introduction",
+              "api-reference/authentication"
+            ]
+          },
+          {
+            "group": "Workflows",
+            "pages": [
+              "api-reference/workflows/list-workflows",
+              "api-reference/workflows/get-workflow",
+              "api-reference/workflows/create-workflow",
+              "api-reference/workflows/update-workflow",
+              "api-reference/workflows/execute-workflow"
+            ]
+          },
+          {
+            "group": "Tables",
+            "pages": [
+              "api-reference/tables/list-tables",
+              "api-reference/tables/get-table",
+              "api-reference/tables/create-table",
+              "api-reference/tables/query-data"
+            ]
+          },
+          {
+            "group": "Connections",
+            "pages": [
+              "api-reference/connections/list-connections",
+              "api-reference/connections/get-connection",
+              "api-reference/connections/create-connection",
+              "api-reference/connections/test-connection"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Resources",
+        "groups": [
+          {
+            "group": "Guides",
+            "pages": [
+              "resources/use-cases",
+              "resources/best-practices",
+              "resources/troubleshooting",
+              "resources/faq"
+            ]
+          },
+          {
+            "group": "Contributing",
+            "pages": [
+              "resources/contributing/overview",
+              "resources/contributing/development-setup",
+              "resources/contributing/creating-blocks",
+              "resources/contributing/code-style"
+            ]
+          },
+          {
+            "group": "Community",
+            "pages": [
+              "resources/community/support",
+              "resources/community/changelog",
+              "resources/community/roadmap"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "No-Code workflow editor for FinOps automation",
+    "Pre-built workflow templates for cost optimization",
+    "50+ integration blocks for cloud providers and tools",
+    "Built-in Excel-like database (OpenOps Tables)",
+    "Analytics and visualization platform",
+    "AI-powered automation with MCP support",
+    "Human-in-the-loop approval workflows",
+    "Workflow versioning and traceability",
+    "Self-hosted and cloud deployment options"
+  ],
+  "publicApiSurface": [
+    "Workflow execution API",
+    "Table data management API",
+    "Connection configuration API",
+    "Webhook endpoints for integrations",
+    "Authentication and user management",
+    "Block registry and custom block development",
+    "Analytics dashboard embedding API",
+    "AI chat and MCP integration API"
+  ]
+}
